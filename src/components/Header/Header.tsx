@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Header.css';
+import {isClicked} from '../Menu/Menu'
 
 function Header(){
+
     return(
-        <nav className="navbar">
+        <nav className={isClicked ? "navbar change":"navbar"}>
         <div className="logo">
             <a href="#">
                 <span>C</span>ode<span>A</span>nd<span>C</span>reate

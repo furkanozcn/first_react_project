@@ -1,0 +1,53 @@
+[{
+        "id": 0,
+        "type": "FREE",
+        "price": "0$",
+        "class": "free",
+        "item1": "Pricing Card Item",
+        "item2": "Pricing Card Item",
+        "item3": "Pricing Card Item",
+        "item4": "Pricing Card Item",
+        "item5": "Pricing Card Item",
+        "choose": "Choose Plan",
+        "order": "Order Now"
+    },
+    {
+        "id": 1,
+        "type": "BASIC",
+        "price": "$299",
+        "class": "basic",
+        "item1": "Pricing Card Item",
+        "item2": "Pricing Card Item",
+        "item3": "Pricing Card Item",
+        "item4": "Pricing Card Item",
+        "item5": "Pricing Card Item",
+        "choose": "Choose Plan",
+        "order": "Order Now"
+    },
+    {
+        "id": 2,
+        "type": "STANDARD",
+        "price": "$699",
+        "class": "standard",
+        "item1": "Pricing Card Item",
+        "item2": "Pricing Card Item",
+        "item3": "Pricing Card Item",
+        "item4": "Pricing Card Item",
+        "item5": "Pricing Card Item",
+        "choose": "Choose Plan",
+        "order": "Order Now"
+    },
+    {
+        "id": 3,
+        "type": "PREMIUM",
+        "price": "$999",
+        "class": "premium",
+        "item1": "Pricing Card Item",
+        "item2": "Pricing Card Item",
+        "item3": "Pricing Card Item",
+        "item4": "Pricing Card Item",
+        "item5": "Pricing Card Item",
+        "choose": "Choose Plan",
+        "order": "Order Now"
+    }
+]

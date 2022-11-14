@@ -5,6 +5,11 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
+import Menu from './components/Menu/Menu';
+import Banner from './components/Banner/Banner';
+import AboutUs from './components/AboutUs/AboutUs';
+import Pricing from './components/Pricing/Pricing';
+import Contact from './components/Contact/Contact';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -12,7 +17,12 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <Header/>
-    
+    <Menu />
+    <Banner />
+    <AboutUs />
+    <Pricing />
+    <Contact />
+    <Footer />
   </React.StrictMode>
 );
 
