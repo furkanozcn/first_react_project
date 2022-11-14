@@ -1,24 +1,28 @@
 import React, { useState } from 'react';
+import Menu from '../Menu/Menu';
 import './Header.css';
-import {isClicked} from '../Menu/Menu'
 
-function Header(){
 
-    return(
-        <nav className={isClicked ? "navbar change":"navbar"}>
-        <div className="logo">
-            <a href="#">
-                <span>C</span>ode<span>A</span>nd<span>C</span>reate
-            </a>
-        </div>
-        <div className="nav-list">
-            <a href="#" className="nav-link">Home</a>
-            <a href="#" className="nav-link">About</a>
-            <a href="#" className="nav-link">Pricing</a>
-            <a href="#" className="nav-link">Blog</a>
-            <a href="#" className="nav-link">Contact</a>
-        </div>
-    </nav>
+function Header() {
+    const [isClicked, setClick] = useState(false);
+    const click = () => {
+        setClick(!isClicked);
+    }
+
+    return (
+        <nav className={isClicked ? "navbar change" : "navbar"}>
+              <Menu/>
+            <div className="logo">
+                <a href="#">
+                    <span>C</span>ode<span>A</span>nd<span>C</span>reate
+                </a>
+            </div>
+            <div className={isClicked ? "menu change" : "menu"} onClick={click} >
+                <div className="line line-1"></div>
+                <div className="line line-2"></div>
+                <div className="line line-3"></div>
+            </div>
+        </nav>
     );
 }
 

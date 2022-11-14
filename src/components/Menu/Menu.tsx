@@ -1,21 +1,15 @@
 import React, { useState } from "react";
 import "./Menu.css"
 
-export const isClicked = false;
-
 function Menu() {
-    const [isClicked, setClick] = useState(false);
-    const click = () => {
-        setClick(!isClicked);
-    }
-
-
     return (
-        <div className={isClicked ? "menu change" : "menu"} onClick={click} >
-            <div className="line line-1"></div>
-            <div className="line line-2"></div>
-            <div className="line line-3"></div>
-        </div>
+            <div className="nav-list">
+                <a href="#" className="nav-link">Home</a>
+                <a href="#" className="nav-link">About</a>
+                <a href="#" className="nav-link">Pricing</a>
+                <a href="#" className="nav-link">Blog</a>
+                <a href="#" className="nav-link">Contact</a>
+            </div>
     )
 }
 

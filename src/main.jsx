@@ -1,6 +1,3 @@
-
-// End of Navbar 
-
 // Section 2 Video
 const video = document.querySelector('.video')
 const btn = document.querySelector('.buttons i')
